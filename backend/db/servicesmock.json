@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Open Bar",
+        "description": "Todas as bebidas servidas de forma gratuita para os seus convidados.",
+        "image": "https://plus.unsplash.com/premium_photo-1688157059578-8116a6534f8c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Segurança",
+        "description": "Esquema de segurança completo para a sua festa.",
+        "image": "https://media.istockphoto.com/id/1618446911/pt/foto/radio-man-and-a-security-guard-or-safety-officer-outdoor-on-a-city-road-for-communication-back.jpg?s=612x612&w=is&k=20&c=idGMZJbjP361MATsDcdZ1o67FutdxJkgAHZnZ_dWguw="
+    },
+    {
+        "name": "Brinquedos",
+        "description": "Deixe a sua festa mais divertida para crianças.",
+        "price": 1200,
+        "image": "https://plus.unsplash.com/premium_photo-1684795780266-ecd819f04f96?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "DJ",
+        "description": "Anime a sua festa com música eletrônica!",
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Banda",
+        "description": " Contrate a nossa banda para escolher a trilha sonora.",
+        "price": 2750,
+        "image": "https://images.unsplash.com/photo-1481886756534-97af88ccb438?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Buffet",
+        "description": " Buffet completo, com vários tipos de comidas.",
+        "price": 1850,
+        "image": "https://images.unsplash.com/photo-1481886756534-97af88ccb438?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }    
+    
+]

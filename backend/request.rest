@@ -1,0 +1,90 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+    {
+        "name": "Buffet",
+        "description": " Buffet completo, com vários tipos de comidas.",
+        "price": 1850,
+        "image": "https://images.unsplash.com/photo-1481886756534-97af88ccb438?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    } 
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/66560b99b5ed7ba095936b68
+
+###
+DELETE http://localhost:3000/api/services/66560b99b5ed7ba095936b68
+
+###
+PUT http://localhost:3000/api/services/66560d51e047b94e7a299764
+Content-Type: application/json
+
+{
+    "name": "TESTE ATUALIZAÇÃO",
+    "description": "Alguma descrição",
+    "price": 2500,
+    "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg"
+}
+
+### 
+POST http://localhost:3000/api/parties
+content-Type: application/json
+
+{
+    "title": "Meu evento 2",
+    "author": "Romeryo",
+    "description": "Uma festa de aniversário",
+    "budget": 3000,
+    "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg",
+    "services": [
+        {
+            "name": "Algum serviço 1",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg"
+        },
+        {
+            "name": "Algum serviço 2",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg"
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/6657122acb9915ae59637e45
+
+###
+DELETE http://localhost:3000/api/parties/665710f8cb9915ae59637e43
+
+###
+PUT http://localhost:3000/api/parties/6657122acb9915ae59637e45
+content-Type: application/json
+
+{
+    "title": "Meu evento 2",
+    "author": "Romeryo",
+    "description": "Uma festa de aniversário",
+    "budget": 10000,
+    "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg",
+    "services": [
+        {
+            "name": "Algum serviço 1",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg"
+        },
+        {
+            "name": "Algum serviço 2",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://cdn.pixabay.com/photo/2024/04/10/08/16/mountains-8687536_1280.jpg"
+        }
+    ]
+}
